@@ -13,3 +13,4 @@ class Student(Person):
 james = Student()
 print(james.school)
 print(james.hello)  # 기반 클래스의 속성을 출력하려고 하면 에러가 발생함
+#즉, Person의 __init__ 메서드가 호출되지 않으면 self.hello = '안녕하세요.'도 실행되지 않아서 속성이 만들어지지 않습니다.
