@@ -14,3 +14,5 @@ james = Student()
 print(james.school)
 print(james.hello)
 print(james.hello)
+
+print(james.hello)
