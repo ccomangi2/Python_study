@@ -7,3 +7,4 @@ age /= 2
 type(age)
 x = 10 + 3.14
 type(x)
+type(x)
