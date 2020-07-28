@@ -37,3 +37,15 @@ user_age = input("나이는? ")
 print(user_name+ "님! 나이는", str(user_age) + "세군요!")
 say = "{0}님! 나이는 {1}세군요! {1}세라니 놀라워요!"
 print(say.format(user_name, user_age))
+
+
+# 리스트 관련 내장 함수
+list = ['d', 'c', 'a', 'b']
+list.reverse()
+print("리스트 항목 순서 뒤집기", list)
+list.sort()
+print("리스트 항목 정렬하기", list)
+list.sort(reverse=True)
+print("리스트 항목 역정렬하기", list)
+for index, value in enumerate(list):
+    print("인덱스", index, "위치의 값은 ", value)
